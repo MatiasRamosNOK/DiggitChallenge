@@ -1,0 +1,27 @@
+.boxMain {
+  width: 83%;
+  height: 100px;
+  margin-bottom: -7%;
+  margin-left: 14%;
+  border-bottom: 1px solid #849fb4;
+}
+.labelsContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  color: white;
+}
+
+.label {
+  color: #849fb4;
+  font-size: 120%;
+  margin-right: 5%;
+}
+
+.label:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: rgb(29, 134, 167);
+}

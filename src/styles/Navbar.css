@@ -1,0 +1,96 @@
+.navbarContainer {
+  height: 60px;
+  width: 100%;
+  border-bottom: 2px solid #1bfbe4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImg {
+  height: 80%;
+  margin-left: 20%;
+}
+
+.leftBox {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rightBox {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+}
+
+.letterNavbar {
+  margin: 0px 70px 0px 0px;
+  font-size: 15;
+}
+
+.containerLetters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 7%;
+  height: 100%;
+}
+
+.logoUser {
+  height: 80%;
+  margin-right: -25px;
+  z-index: 1;
+}
+
+.letter {
+  color: #849fb4;
+}
+
+.letter:hover {
+  cursor: pointer;
+}
+
+.secondaryLetter {
+  color: white;
+  font-weight: 750;
+}
+
+.rightBoxInformation {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(
+    90deg,
+    rgb(78, 255, 207) 0%,
+    rgb(8, 164, 188) 100%
+  );
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.name {
+  margin-left: 20%;
+}
+
+.infoTime {
+  width: 100%;
+}
+.date {
+  margin-left: 10%;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dateExac {
+  font-size: 80%;
+}

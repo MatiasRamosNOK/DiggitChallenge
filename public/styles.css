@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050711;
+}
+.recharts-cartesian-axis-line {
+  display: none;
+}
+
+.recharts-cartesian-axis-tick-line {
+  display: none;
+}
+
+@font-face {
+  font-family: MontserratThin;
+  src: url("../assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+div {
+  font-family: MontserratThin;
+  color: #cccccc;
+}
